@@ -1,0 +1,1 @@
+execute if score #xpb_mobileBanking xpb_config matches 1 run function xpbank:withdraw
