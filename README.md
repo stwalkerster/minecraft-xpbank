@@ -2,8 +2,6 @@
 
 This is a datapack which allows you to "bank" levels of experience for safe-keeping.
 
-Only full levels are banked - any progress you have between levels will not be deposited.
-
 ## Installation
 
 ```
@@ -34,4 +32,4 @@ Activate these command blocks with a redstone signal. Beware - these command blo
 * Disable mobile banking: `/scoreboard players set #xpb_mobileBanking xpb_config 0`
 * Enable mobile banking: `/scoreboard players set #xpb_mobileBanking xpb_config 1`
 
-* Configure number of levels to deposit at once (eg: 5): `/scoreboard players set #xpb_depositLevels xpb_config 5`
+* Configure number of levels to deposit at once (eg: 5; note that any progress between levels is automatically saved): `/scoreboard players set #xpb_depositLevels xpb_config 5`
